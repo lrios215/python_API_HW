@@ -16,7 +16,7 @@ A series of scatter plots were created to showcase the following relationships:
 
 * Temperature (F) vs. Latitude
 
-![Table 1: Temperature (F) vs Latitude](output_weather/summary_drug_regimens.png)
+![Table 1: Temperature (F) vs Latitude](weatherpy/output_weather/lat_temp_plot.png)
 
 * Humidity (%) vs. Latitude
 * Cloudiness (%) vs. Latitude
