@@ -1,5 +1,5 @@
 ## API-Challenge
-GT Data Bootcamp - Python API HW_Rios
+GT Data Bootcamp - Python API HW_Rios (Note: my API keys have been removed for security)
 
 ## Part I: WeatherPy 
 
