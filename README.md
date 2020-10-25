@@ -81,8 +81,8 @@ This analysis works with weather data to plan future vacations using jupyter-gma
 
 * Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
 
+![Table 2: Hotels near Cities with Ideal Weather](vacationpy/output_vacation/ideal_weather_hotels.png)
+
 * Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
-* For Part II, you must include a screenshot of the heatmap you create and include it in your submission.
-* You must use proper labeling of your plots, including aspects like: Plot Titles (with date of analysis) and Axes Labels.
-* For max intensity in the heat map, try setting it to the highest humidity found in the data set.
+![Figure 2: Heatmap with Markers Showing Ideal Weather Hotels](vacationpy/hotel_heatmap.png)
