@@ -1,7 +1,7 @@
 ## API-Challenge
 GT Data Bootcamp - Python API HW_Rios
 
-## WeatherPy 
+## Part I: WeatherPy 
 
 This analyis visualizes the weather of 500+ cities across the world of varying distance from the equator and creates a representative model of weather across world cities. This analysis utilizes a [simple Python library](https://pypi.python.org/pypi/citipy), and the [OpenWeatherMap API](https://openweathermap.org/api).
 
@@ -59,4 +59,30 @@ Linear regressions were run on each weather relationship analyzed above, separat
     * Observation: no correlation (r = -0.22), in S. hemisphere as lat increases no stat sig trend in wind speed
 
 
- 
+## Part II - VacationPy
+
+This analysis works with weather data to plan future vacations using jupyter-gmaps and the Google Places API.
+
+* **Note:** if you having trouble displaying the maps try running `jupyter nbextension enable --py gmaps` in your environment and retry.
+
+* Create a heat map that displays the humidity for every city from the part I of the homework.
+
+* Narrow down the DataFrame to find your ideal weather condition. For example:
+
+  * A max temperature lower than 80 degrees but higher than 70.
+
+  * Wind speed less than 10 mph.
+
+  * Zero cloudiness.
+
+  * Drop any rows that don't contain all three conditions. You want to be sure the weather is ideal.
+
+  * **Note:** Feel free to adjust to your specifications but be sure to limit the number of rows returned by your API requests to a reasonable number.
+
+* Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
+
+* Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
+
+* For Part II, you must include a screenshot of the heatmap you create and include it in your submission.
+* You must use proper labeling of your plots, including aspects like: Plot Titles (with date of analysis) and Axes Labels.
+* For max intensity in the heat map, try setting it to the highest humidity found in the data set.
