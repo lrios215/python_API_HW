@@ -63,19 +63,19 @@ Linear regressions were run on each weather relationship analyzed above, separat
 
 This analysis works with weather data to plan future vacations using jupyter-gmaps and the Google Places API.
 
+### Humidity Heatmap
+
 * Heat map created that displays the humidity for every city from the part I Weatherpy.
 
 ![Figure 1: Heatmap: City Humidity](vacationpy/output_vacation/heatmap_hum.png)
 
-* Narrow down the DataFrame to find your ideal weather conditions:
+### Cities with ideal weather conditions:
 
-  * A max temperature lower than 85 degrees but higher than 70.
-
-  * Cloudiness is lower or equal to 20%
-
-  * Humidity is lower or equal to 30%
-  
-  * Wind speed less than 10 mph.
+  * Ideal weather conditions: 
+    * A max temperature lower than 85 degrees but higher than 70.
+    * Cloudiness is lower or equal to 20%
+    * Humidity is lower or equal to 30%
+    * Wind speed less than 10 mph.
 
 ![Table 1: Cities with Ideal Weather](vacationpy/output_vacation/ideal_weather.png)
 
