@@ -63,21 +63,21 @@ Linear regressions were run on each weather relationship analyzed above, separat
 
 This analysis works with weather data to plan future vacations using jupyter-gmaps and the Google Places API.
 
-* **Note:** if you having trouble displaying the maps try running `jupyter nbextension enable --py gmaps` in your environment and retry.
+* Heat map created that displays the humidity for every city from the part I Weatherpy.
 
-* Create a heat map that displays the humidity for every city from the part I of the homework.
+![Figure 1: Heatmap: City Humidity](vacationpy/output_vacation/heatmap_hum.png)
 
-* Narrow down the DataFrame to find your ideal weather condition. For example:
+* Narrow down the DataFrame to find your ideal weather conditions:
 
-  * A max temperature lower than 80 degrees but higher than 70.
+  * A max temperature lower than 85 degrees but higher than 70.
 
+  * Cloudiness is lower or equal to 20%
+
+  * Humidity is lower or equal to 30%
+  
   * Wind speed less than 10 mph.
 
-  * Zero cloudiness.
-
-  * Drop any rows that don't contain all three conditions. You want to be sure the weather is ideal.
-
-  * **Note:** Feel free to adjust to your specifications but be sure to limit the number of rows returned by your API requests to a reasonable number.
+![Table 1: Cities with Ideal Weather](vacationpy/output_vacation/ideal_weather.png)
 
 * Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
 
